@@ -9,6 +9,7 @@ public class Test {
 		Employee employee2 = new Employee("cristiano", 3);
 		Employee employee3 = new Employee("tom", 4);
 
+		//test
 		EmployeeLinkedList list = new EmployeeLinkedList();
 		list.addToFront(employee3);
 		list.addToFront(employee2);
