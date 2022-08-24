@@ -17,7 +17,7 @@ public class EmployeeLinkedList {
 	public void removeFromFront() {
 
 		EmployeeNode removedNode = head;
-		head = removedNode.getNext();
+		head = head.getNext();
 		size--;
 		removedNode.setNext(null);
 
